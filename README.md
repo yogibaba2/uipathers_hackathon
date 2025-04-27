@@ -41,10 +41,16 @@ This project can be customized to fit different business scenarios:
 ## License
 This project is open-sourced under the [MIT License](LICENSE).
 ## Below is a brief slide show of our 36 hours' mazing journey throughout this hackathon.
-
+### Introduction To The Team
 ![Introduction To The Team](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%201.png?raw=true)
+
+### Feature & Key Functionalities Explored
 ![Feature & Key Functionalities Explored](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%202.png?raw=true)
+
+### Our Test Strategy
 ![Our Test Strategy](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%203.png?raw=true)
+
+### Key Highlights & Learnigs
 ![Key Highlights & Learnigs](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%204.png?raw=true)
 
 ---
