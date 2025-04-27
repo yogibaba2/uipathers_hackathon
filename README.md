@@ -38,8 +38,6 @@ This project can be customized to fit different business scenarios:
 - Add new workflows to extend functionality.
 - Configure Orchestrator queues and assets if scaling to production.
 
-## License
-This project is open-sourced under the [MIT License](LICENSE).
 ## Below is a brief slide show of our 36 hours' mazing journey throughout this hackathon.
 ### Introduction To The Team
 ![Introduction To The Team](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%201.png?raw=true)
@@ -53,6 +51,8 @@ This project is open-sourced under the [MIT License](LICENSE).
 ### Key Highlights & Learnigs
 ![Key Highlights & Learnigs](https://github.com/yogibaba2/uipathers_hackathon/blob/main/slides/slide%204.png?raw=true)
 
+## License
+This project is open-sourced under the [MIT License](LICENSE).
 ---
 
 *Happy Automating!* 🤖✨
