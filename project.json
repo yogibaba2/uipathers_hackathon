@@ -2,19 +2,20 @@
   "name": "UiBankTestSuite",
   "projectId": "ef671a5e-f604-4073-a83e-60070ddaa2a1",
   "description": "Test Automation Project",
-  "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.0.1]",
     "UiPath.IntegrationService.Activities": "[1.14.0]",
     "UiPath.System.Activities": "[25.2.3]",
     "UiPath.Testing.Activities": "25.4.0",
     "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.21.1]",
     "UiPath.WorkflowEvents.Activities": "[3.7.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.161.0",
-  "projectVersion": "1.0.199395072",
+  "projectVersion": "1.0.199458804",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -43,7 +44,8 @@
     "processOptions": {
       "ignoredFiles": [
         "Do Signup.xaml",
-        "Do Login.xaml"
+        "Do Login.xaml",
+        "WEB_Tests\\Verify All Links.xaml"
       ]
     },
     "fileInfoCollection": [
@@ -68,6 +70,30 @@
         "testCaseId": "ac2ada47-38b6-4bab-a99c-a9138c9912aa",
         "testCaseType": "TestCase",
         "fileName": "WEB_Tests\\UI_TC1_Signup.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f6f014d6-7046-4bb6-a52c-208908f55f82",
+        "dataVariationFilePath": ".variations\\profile-data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "WEB_Tests\\UI_TC6_Profile_Page.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2e141d30-965d-448d-998b-8fcd20aaed24",
+        "dataVariationFilePath": ".variations\\contact-us-data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "WEB_Tests\\UI_TC8_Contact_US_data_driven.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "80307b99-f329-4e97-8176-f58a9f1f7ef3",
+        "dataVariationFilePath": ".variations\\loan-data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "WEB_Tests\\UI_TC10_apply_for_loan.xaml"
       }
     ],
     "saveToCloud": false

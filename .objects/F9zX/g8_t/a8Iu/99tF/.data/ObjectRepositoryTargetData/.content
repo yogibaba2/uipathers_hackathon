@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g-bQvZjcmUKARuEYjC0nlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/userprofile" CVScreenId="49099db4-39e9-4c67-8ce8-3d58ce762660" CvTextArea="448, 317, 383, 55" CvType="AnyWordGroup" DesignTimeRectangle="436, 312, 407, 58" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='text-white header' /&gt;" Guid="fe4d385d-11be-46e9-ad71-e2f4d62c4dbd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Profile' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d683d409f5dbe6e7f9a114405f0c4548.png" xmlns="">0B2P-TVCXl0Ks8PiESqamHg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

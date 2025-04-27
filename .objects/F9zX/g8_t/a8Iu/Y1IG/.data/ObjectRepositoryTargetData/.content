@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cHNZFrXIU0SSkeGMAqYisA" Reference="eNvcUkGFFkWVWj1NQR3NZw/Y1IG6phd-EKyRzJrbLkQGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/userprofile" CVScreenId="49099db4-39e9-4c67-8ce8-3d58ce762660" CvTextArea="366, 830, 293, 20" CvType="AnyWordGroup" DesignTimeRectangle="369, 798, 367, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' /&gt;" Guid="66776ea2-19f5-4e17-9e4c-e3370014860b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Profile' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c99f3c26-de2e-4d97-a1a4-515665678faa" CvTextArea="367, 882, 292, 20" CvTextArgument="680c94138534b8480b9191df" CvType="Text" DesignTimeRectangle="369, 879, 288, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' aaname='680c94138534b8480b9191df' check:innerText='680c94138534b8480b9191df' /&gt;" Guid="6e89bc94-0941-464d-b8e6-d3d86a75387c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e9a8f278e9acdb764ae0aa3f8c90fd4.png" xmlns="">0UZybbAuP3UqvSNg52bBNVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

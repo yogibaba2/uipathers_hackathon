@@ -1,0 +1,9 @@
+[
+    {
+        "email": "test@test.com",
+        "amount": "10000000",
+        "term": "3",
+        "income": "1000000",
+        "age": "35"
+    }
+]

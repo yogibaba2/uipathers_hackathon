@@ -1,0 +1,513 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="UI_TC_ProductPage" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="UI_TC_ProductPage_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>UiPath.Workflow.Runtime.Statements</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.FlowAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.Text</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics.Telemetry</x:String>
+      <x:String>Microsoft.CodeAnalysis.Operations</x:String>
+      <x:String>Microsoft.CodeAnalysis.Emit</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic.Syntax</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.WorkflowEvents.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Pipelines.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Pipelines.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="I have added the flow for the product page credit card now their i want to verify the product dropdown is visible ore not and if visible click on credit card verify the credit card page is open and then all the tree types of credit card are visible" DisplayName="UI_TC_ProductPage" sap:VirtualizedContainerService.HintSize="1088,1932" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Object" Name="isProductDropdownVisible" />
+      <Variable x:TypeArguments="x:Object" Name="isCreditCardPageOpen" />
+      <Variable x:TypeArguments="x:Object" Name="areAllCreditCardTypesVisible" />
+      <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">NApplicationCard_2</x:String>
+            <x:String x:Key="SourcePropertyName">OutUiElement</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="TravelCard" />
+      <Variable x:TypeArguments="x:String" Name="CashBackCard" />
+      <Variable x:TypeArguments="x:String" Name="SelfRewardCard" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome UiBank-Welcome(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1867" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OutUiElement="[outputElement]" ScopeGuid="8732798a-875f-4bfc-9669-a3f698b3c074" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2153" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Products''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8732798a-875f-4bfc-9669-a3f698b3c074" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" CVScreenId="18b96b97-65d3-4035-86bc-d203a3f78da5" CvElementArea="1528, 160, 22, 24" CvTextArea="1449, 165, 80, 16" CvTextArgument="Products" CvType="ArrowButton" DesignTimeRectangle="1442, 152, 110, 43" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' check:innerText='Products' /&gt;" Guid="69a05abf-95f2-4844-806e-3767668a8c75" InformativeScreenshot="ee1fdb0e2149394443207e116be6fb07.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NHover DisplayName="Hover ''Credit Cards''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="8732798a-875f-4bfc-9669-a3f698b3c074" Version="V4">
+              <uix:NHover.Target>
+                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" DesignTimeRectangle="1442, 269, 160, 131" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl aria-labelledby='dropdownMenuLink' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='dropdownMenuLink' tag='DIV' type='' class='dropdown-menu show' aaname='' check:innerText='Loans&amp;#xA;Credit Cards&amp;#xA;Mobile Banking' /&gt;" Guid="7546495b-de19-4f80-8fd2-43adfce6270c" InformativeScreenshot="df14c7c558a433505019f8cc5f14870b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1443, 310, 158, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Credit Cards' class='dropdown-item' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Credit Cards' class='dropdown-item' tag='A' type='' check:innerText='Credit Cards' /&gt;" Guid="220f21fb-3a21-411c-a005-65e326465088" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NHover.Target>
+              <uix:NHover.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Element 'Element 'LoansCredit CardsMobile…''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="t_aD_JWFx0umsDslMwm8WA" DesignTimeRectangle="1442, 217, 160, 131" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl aria-labelledby='dropdownMenuLink' tag='DIV' type='' class='dropdown-menu show' aaname='' check:innerText='Loans&amp;#xA;Credit Cards&amp;#xA;Mobile Banking' /&gt;" Guid="c72d8a23-148f-4d5e-8cb7-12eb6ea0bc66" InformativeScreenshot="1efde4007eb755ae7e082d4d47950ded.png" Reference="eNvcUkGFFkWVWj1NQR3NZw/PMof4WDN6EmEDfRTXYHV5g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NHover.VerifyOptions>
+            </uix:NHover>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Credit Cards''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8732798a-875f-4bfc-9669-a3f698b3c074" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" DesignTimeRectangle="1443, 310, 158, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Credit Cards' class='dropdown-item' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Credit Cards' class='dropdown-item' tag='A' type='' check:innerText='Credit Cards' /&gt;" Guid="9424b6e7-318e-4369-824e-e6585cb362fb" InformativeScreenshot="54cd74c1ce4e4c7da3fa3da95abfa442.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f8442822-5649-4143-816c-fa96e8c83b0e" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="434,1454" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                    <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (267,249,350,23)&quot; +&#xD;&#xA;&quot;Anchor: Icon (192,234,49,48)&quot;]" DesignTimeCacheId="f8442822-5649-4143-816c-fa96e8c83b0e" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Word Group" sap:VirtualizedContainerService.HintSize="400,252" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_2" InformativeScreenshot="a20df964961c55b1c18d67c6d2960857" NumberOfScrolls="2" RefreshBefore="True" Result="[TravelCard]" ScrollDirection="None" Version="V6">
+                      <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="ac7f6b7b-8e44-4dc8-82af-2c45d80a60a5">
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="192, 234, 49, 48" ElementType="Icon" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADEAAAAwCAYAAAC4wJK5AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAABT5JREFUaEPtmPlPFVcUx/0r+hf014orq4pAK1ix1VqUp4JFsEWTirK4oGjTFGVr/aXSgkCrLLWVVTYTUFKTIgKBspQtLAHK+gjwAxCC9J3me9p5mbm895gZ3kNq+kkmb96cO3fOd+6dc869m+gNYJN44b/I/yI2ChtexOLiInV0dNCDB9n0fVoan4tsKBH9/f2Uk5tLsbHXyHD8BO3e40nvbHZSHAWFheJtG0NEWVk5BQefMjvq6uZOoaFhFHfjBqWn36PKJ0/o7t1UtpWXV4i3v14RcP6Avz87d/RYIGVmZlFPT4/YjHn0KJ/b1da+EE2vR8Tk5CS/aTgVEHCUWlpaxCYrSE39jtv39fWLpvUXgTfpsWs3O4Q3r5bIqGi+xxLrKuJxaSk7stPZhWpqakSzTXz99pPf/vfFy8y6iSguLjELaGpqEs02MRqNfG9UdLRoYtZFREVFBTvh5uZOjY2NonlVSsvK+P78/ALRxOgSMTMzQ0NDQ5x46hsaqKq6mgqLijghIRQmJCRS7LXrdD4igoJPfcIO+Pr6cR6QaG7+nU6cDOKROfzREaqqqlI8Qw76QR9jY2OiidEkAs577vUyx3O1R8yly3yvRGdnJ23bvoNtHx46RJudtvB59dOniueB2dlZtoWcPi2azGgSEXHhAneIN3gxMopu3vyCUlK+prS0dMrL+4mH/dfnz6mpuZl6e3tpYmKCFhYWxG7oelwcO/6yvp7/Y4ScXVzpZFCQ2JTuZWTwMwsKLE8loFoEMiU6CwoOJpPJJJo1EXbmUw6zciBgj+dexbX5+Xly99hF3t4+tLS0pLDJUSVi0mjkzjB/R0ZHRbNm8M3ghdTV1fF/jISLqxuFhp1RtEtKTuZ2uXl5iusiqkSEnz33z5BaKL70gBexddv2Fd8OpqGElFOOfByguNcSq4qA4+jss/CzomlNDAwM0Dd37vALun07gdrb/zDbEIbx4WPKWYtIcmyKGB8f54oSU2lqako0O4TW1laetjt2OvO5GmyKwBzFKDx7pq1E0MvIyAi/factW+m32lrRbBWrIh4+/JkFIMZL4CEoGZCBs7J+4GmAsItQulaQR/wPfsDPrKysFM02sShieHiYhxMdIhl5efus+AjlR1tbm9iFZmJiLnFfeoKHRRHIBZKDKBc4uV2MpPhbtzj5FBUV83B3d3crMvFawLOwxtDDChHIsF1d3TQ9PS2aHAaeCRFYW+thhQi1mIYsLyP1gDAKEUiCetAl4q9fvqVXIa5k+rNPNNHSvrdo+csQ8bJNMC0hAhWwHjSLgAA4+irci0xGZQmynHiObTi00NDQyCKys3NEkyo0iVAjAL9aQR6CiJKSx6JJFZpEYJrAUXsKANLSVW9S1SQC6BHQ2dXF25HWyMnJYRF6lq5Aswg5agQsLy/zAujz8xGiyYy0u2dt42w1dIuwJgAjJY9aKLvh4Ffx8Yp2clC+oI2aitUSukTYEoCPnsPvv3kEtRYczMjMVLSVc/VqLLfBSk4PmkWY2uto6fDbVgVAHKKYBDaD4aCljWAJqVrWi2YRAEIU/42j5vwgFwB+vH/f6kc7NzfHGw6wo0bTiy4RlkD4FQUAaT2NylgOPuID/gfZdizQoPt7AHYTYQ1Uv4hOiFISKLelUj8xKUlh04PDRRgMx3nDDSBXXL5yhZ13c/fgPSp74HAR3j7vUqDBQIODg7zAssf0EXG4CDj93j5fXvzjHHtJ9sahIqREZ+/pI+JQEVKis/f0EXGoCOyKJCenrDn6rIZDRdiqXO2JQ0WsF2+EiL8Bc1tMQfdjt9MAAAAASUVORK5CYII=" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="267, 249, 350, 23" ElementType="AnyWordGroup" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                    </p:CvGetTextWithDescriptor>
+                    <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (267,431,403,23)&quot; +&#xD;&#xA;&quot;Anchor: Text '3x miles on any dining, clothing, or entertainment purchase' (175,296,475,19)&quot;]" DesignTimeCacheId="f8442822-5649-4143-816c-fa96e8c83b0e" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Word Group" sap:VirtualizedContainerService.HintSize="400,252" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="b878de344e4d4e9200b6600b6787be49" NumberOfScrolls="2" RefreshBefore="True" Result="[CashBackCard]" ScrollDirection="None" Version="V6">
+                      <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="05479ceb-6410-47ed-8e74-8a703415e239">
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="175, 296, 475, 19" ElementType="Text" Text="3x miles on any dining, clothing, or entertainment purchase" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="267, 431, 403, 23" ElementType="AnyWordGroup" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                    </p:CvGetTextWithDescriptor>
+                    <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (267,613,424,23)&quot; +&#xD;&#xA;&quot;Anchor: Icon (194,597,46,51)&quot;]" DesignTimeCacheId="f8442822-5649-4143-816c-fa96e8c83b0e" DesignTimeScaleFactor="1" DisplayName="CV Get Text - Any Word Group" sap:VirtualizedContainerService.HintSize="400,252" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_4" InformativeScreenshot="619a50bacfbc31c13d222c8d397acd8b" NumberOfScrolls="2" RefreshBefore="True" Result="[SelfRewardCard]" ScrollDirection="None" Version="V6">
+                      <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="eb14a9fa-63f6-4814-af84-39eee0ffed21">
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="194, 597, 46, 51" ElementType="Icon" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAzCAYAAADo8TpyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOmSURBVGhD7ZfrS1RBGIf7K4yKorKionsfoiKFJLWy0tI0MSqjwEq3m0QWZoESdAGxLbL6EFYERdGdiKDrhxKCoIsE2XXLki7ubus6c878YmbWs7uz6+6e3S3aOA+8uMw778xzxpk5u/2QovRTG1IFS1zAGPQ7F0G35oNkp4mg1QXQ711WeyZM8sQ1Cu3gRimc0x90zSwR/DNv0+w1ANPVqrhJmrh+zi5XeF0W2Kc3RjtztMsHyE6DfvNMUE0iJE2clk0BWTQM+NahpsA63oPkDQbdkK2m4iY54t5uuR12LVczBnRnKUjuAEDX1FRcxC7u+gmtuU6sKlk4VBxA/cFVI02WjAKtKQ4qCYRuXwqyYIg4wBz9/hXQzQvFWHxM7dhu4JdTLeuT2MS/fwUpHicPXsl40LUZxq0hVtnbLW+SxSOBHq9aDZAe42Hh9UCrLfPfOnws39i0dCLg+qFWhyUmcW2/TUruKQfcXaKNvX4m9qxory2DfuGoPIA3Tqvl0K+3yNy1k3LLcMmqXLD2F7KDuwta3Qo5VtM2tTws0cVdP0HmDgTdlBe6Pz0u0I3z5YQNa0EWDQddOS24HyWgZZNBCkdDq18jpfnKe9yBI4ka/jBk3iBjcSIRVZw9uiVX62KzmpJ4PXKvcqGK2bLvpeNGWj9/ROYqc+Tf6oLw2ymgL3tyV02FEFWcHyIpc0JN+fG45WrxfVswQgT78gHs8zvxXyBFY6S0bR7Q/UutNjDEW2+rqRCiirN3r+RW2L1KTQXj7gJdP0fK8zdnVa54GZG5A6Q0v8M9LrUqCFpTIsU7HWoqhKjinN5D2Od26aXrO2j5dCkfEHT1TMAZ+bbQzzbKvjuWqamwGOIOhwOHDx8JG/a99WjKHIumGemwb1kflON1gbAvH0FLJxnfUejyqWCdn4L6qHPZN1eIsQ9lTYD9wL6Q+cPNZYg/bm3F+AkTTQevU2Htz0Hy08W9zt62qemkzBUiXt/QID7HGk6nUx5O/iY922gMzJ4+BHvhn4jneq9BXqOOEym4U1TxlpZTRjJm+F3PD/C+SjVjwHO8D+9rFu5kiQdhiYfHEg/hXxA3G2Iwk+IJzeXDEH/Z1oZV5eWmg9eZFU9oLh8xfVeJiknxZPB/ifP9VGWzqc198wfEo10Wlrgl7sMSj4gl7scSj4gl7scSj4gl7scSj4gl7idu8VkZmSE/ncLFn/rpVlhUFJ94rMFXxqx472rGEqbEUwFL/G+TsuK/ASewC70T2ho/AAAAAElFTkSuQmCC" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="267, 613, 424, 23" ElementType="AnyWordGroup" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
+                    </p:CvGetTextWithDescriptor>
+                    <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[TravelCard.Equals(&quot;UiBank Travel Rewards Card&quot;)]" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="Travel Rewards Card is Present" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                    <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[CashBackCard.Equals(&quot;UiBank Cash Back Rewards Card&quot;)]" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="UiBank CashBack Card is Present" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                    <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[SelfRewardCard.Equals(&quot;UiBank Treat Yo Self Rewards Card&quot;)]" sap:VirtualizedContainerService.HintSize="400,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat=" Treat Yo Self Rewards Card is Present" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DataSent="False" DisplayName="Screen CV Get Text - '' (Main)" Id="f8442822-5649-4143-816c-fa96e8c83b0e" InformativeScreenshot="7dda3d98e9887622e83faf5b51841cc0" LogicalPosition="345, 294" OcrText="Options. Options. Options. Travel? Cash Back? Rewards? We have you covered! UiBank Travel Rewards Card Apply Now 3x miles on any dining, clothing, or entertainment purchase o UiBank Cash Back Rewards Card Apply Now 1.5% back on all purchases, plain and simple UiBank Treat Yo Self Rewards Card Apply Now Ride shares and entertainment purchases get you 3 points per dollar spent" Position="345, 294" ScreenshotGuid="290e2125-f461-4e75-a312-7d6a9f0ef728" ServerVersion="24.10.5.1">
+                        <uc:CVCache.CvAnchorRelations>
+                          <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                        </uc:CVCache.CvAnchorRelations>
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="16">
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="194, 597, 46, 51" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="873, 619, 159, 53" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="873, 438, 158, 53" />
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="192, 234, 49, 48" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="873, 255, 158, 53" />
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="192, 424, 48, 32" />
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="987, 455, 22, 18" />
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="987, 637, 22, 19" />
+                            <uc:CvElementInfo Category="Icon" Description="Icon" Region="987, 272, 23, 18" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="ArrowButton" Confidence="Runtime" Region="984, 634, 29, 23" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="CloseButton" Confidence="Runtime" Region="988, 637, 21, 16" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                        <uc:CVCache.OcrTexts>
+                          <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="62">
+                            <uc:OcrTextInfo Region="236, 44, 240, 67" Text="Options." />
+                            <uc:OcrTextInfo Region="486, 44, 241, 65" Text="Options." />
+                            <uc:OcrTextInfo Region="736, 46, 243, 65" Text="Options." />
+                            <uc:OcrTextInfo Region="399, 117, 57, 15" Text="Travel?" />
+                            <uc:OcrTextInfo Region="459, 117, 43, 15" Text="Cash" />
+                            <uc:OcrTextInfo Region="505, 117, 48, 15" Text="Back?" />
+                            <uc:OcrTextInfo Region="555, 117, 78, 16" Text="Rewards?" />
+                            <uc:OcrTextInfo Region="636, 117, 27, 15" Text="We" />
+                            <uc:OcrTextInfo Region="666, 117, 41, 15" Text="have" />
+                            <uc:OcrTextInfo Region="709, 120, 31, 17" Text="you" />
+                            <uc:OcrTextInfo Region="743, 117, 71, 15" Text="covered!" />
+                            <uc:OcrTextInfo Region="267, 249, 89, 23" Text="UiBank" />
+                            <uc:OcrTextInfo Region="359, 250, 79, 22" Text="Travel" />
+                            <uc:OcrTextInfo Region="442, 250, 109, 22" Text="Rewards" />
+                            <uc:OcrTextInfo Region="554, 250, 63, 21" Text="Card" />
+                            <uc:OcrTextInfo Region="896, 273, 52, 20" Text="Apply" />
+                            <uc:OcrTextInfo Region="949, 273, 38, 15" Text="Now" />
+                            <uc:OcrTextInfo Region="175, 296, 19, 15" Text="3x" />
+                            <uc:OcrTextInfo Region="197, 296, 44, 15" Text="miles" />
+                            <uc:OcrTextInfo Region="243, 299, 22, 12" Text="on" />
+                            <uc:OcrTextInfo Region="268, 299, 32, 16" Text="any" />
+                            <uc:OcrTextInfo Region="303, 296, 54, 19" Text="dining," />
+                            <uc:OcrTextInfo Region="360, 296, 69, 19" Text="clothing," />
+                            <uc:OcrTextInfo Region="432, 299, 19, 12" Text="or" />
+                            <uc:OcrTextInfo Region="453, 296, 117, 15" Text="entertainment" />
+                            <uc:OcrTextInfo Region="572, 296, 78, 19" Text="purchase" />
+                            <uc:OcrTextInfo Region="210, 438, 8, 8" Text="o" />
+                            <uc:OcrTextInfo Region="267, 431, 90, 23" Text="UiBank" />
+                            <uc:OcrTextInfo Region="359, 432, 66, 22" Text="Cash" />
+                            <uc:OcrTextInfo Region="429, 432, 63, 22" Text="Back" />
+                            <uc:OcrTextInfo Region="495, 432, 109, 22" Text="Rewards" />
+                            <uc:OcrTextInfo Region="607, 432, 63, 22" Text="Card" />
+                            <uc:OcrTextInfo Region="896, 455, 52, 20" Text="Apply" />
+                            <uc:OcrTextInfo Region="948, 455, 39, 15" Text="Now" />
+                            <uc:OcrTextInfo Region="175, 478, 33, 15" Text="1.5%" />
+                            <uc:OcrTextInfo Region="210, 478, 42, 15" Text="back" />
+                            <uc:OcrTextInfo Region="254, 481, 22, 12" Text="on" />
+                            <uc:OcrTextInfo Region="279, 478, 20, 15" Text="all" />
+                            <uc:OcrTextInfo Region="302, 478, 89, 19" Text="purchases," />
+                            <uc:OcrTextInfo Region="394, 478, 41, 19" Text="plain" />
+                            <uc:OcrTextInfo Region="437, 478, 34, 15" Text="and" />
+                            <uc:OcrTextInfo Region="474, 478, 55, 19" Text="simple" />
+                            <uc:OcrTextInfo Region="267, 613, 90, 23" Text="UiBank" />
+                            <uc:OcrTextInfo Region="359, 615, 68, 20" Text="Treat" />
+                            <uc:OcrTextInfo Region="428, 614, 35, 22" Text="Yo" />
+                            <uc:OcrTextInfo Region="466, 613, 47, 22" Text="Self" />
+                            <uc:OcrTextInfo Region="516, 614, 110, 22" Text="Rewards" />
+                            <uc:OcrTextInfo Region="629, 614, 62, 21" Text="Card" />
+                            <uc:OcrTextInfo Region="896, 637, 52, 20" Text="Apply" />
+                            <uc:OcrTextInfo Region="948, 637, 39, 16" Text="Now" />
+                            <uc:OcrTextInfo Region="175, 660, 36, 15" Text="Ride" />
+                            <uc:OcrTextInfo Region="214, 660, 55, 15" Text="shares" />
+                            <uc:OcrTextInfo Region="272, 660, 33, 15" Text="and" />
+                            <uc:OcrTextInfo Region="307, 660, 118, 15" Text="entertainment" />
+                            <uc:OcrTextInfo Region="427, 660, 86, 19" Text="purchases" />
+                            <uc:OcrTextInfo Region="516, 661, 29, 18" Text="get" />
+                            <uc:OcrTextInfo Region="547, 663, 31, 16" Text="you" />
+                            <uc:OcrTextInfo Region="581, 660, 11, 15" Text="3" />
+                            <uc:OcrTextInfo Region="594, 660, 51, 19" Text="points" />
+                            <uc:OcrTextInfo Region="648, 663, 28, 16" Text="per" />
+                            <uc:OcrTextInfo Region="679, 660, 48, 15" Text="dollar" />
+                            <uc:OcrTextInfo Region="729, 661, 47, 18" Text="spent" />
+                          </scg:List>
+                        </uc:CVCache.OcrTexts>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="aa7805b8-a6fa-4a3b-ae3e-9e2050f1666d" InformativeScreenshot="3cd0271789046fecd792b45beeb68ab5" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;app-credit-card&amp;gt;app-credit-cards&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+              <p:CVScope.UseLocalServer>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </p:CVScope.UseLocalServer>
+            </p:CVScope>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Chrome" ContentHash="O3tFq-WQ50mhcv14ydLIRQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAACZCAMAAAALgmiIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABgUExURfpGFvyMbv////7Rxf/z8PtpQv/5+PyumfyAX/x1UftjO/7WzP3Lvf25p/7o4vtdM/2/r/2dhPx6WP2zoPtXLP7u6fpMHf7i2vtvSfyokf7c0/yGZvpSJf2XfP3Ftvyiiq2qGj8AAAMiSURBVHhe7ZvplqIwEEbTwQ0dl3FBG1t5/7ecg7RCfRXQHJPJLN/9acXUFUIRpTTVn4ohhBBCCCHGmAtuk34fH+giWdlkZOgioZkDmvlDM39o5g/N/KGZP8nNRtkEX2pIa7bb3rJsdxhIbHY8PfKcjhhMabYrupk+MZzOrBRixiwgnsxsMoZUc7gSkpl9Yio8n8nM2tV/Zy0HJDP7wlSYLJXZATMZYzIxwstskUlGIqo5wvhO0XLlXXbf6xzRQZqtISo/pAa/zH60oRJCNT+6701mZqGa1ciKlswMy5kxX7KgJTO7QMyYcyea0myEk30dOtGUZiqzvDJ1HIhoBvcnOJdJzexi/oisZcWoSWlmJ9NZLTefTR077qRmN0p84Zv0Zn3Q7AbNaObmvzQbDNLsDs1o5oZmGKTZHZrRzA3NMEizOzSjmRuaYZBmd2hGMzc0w+C/Y9b+ft+Ajz2QweSDQV+zHKK+Zpeh4FtmM4hWIqrBTyLGBzXDyXzNRPsPTvaWGf65DSdDBtdlUDPs/hiLqGIEw+W1HNRsCdHC8SCrg5pbPCgPanbFcN/TrIYpDhdPfYOaqdOjWrMETdtbi2yvCWqmGgbmMiw5YOODzB3WTDUMYNNYF3UyZWEOa4aXgH763aIazJ4Ux/fMVhg3VzmgAxY/7OIKa6Z2G2bfVziOuMowdWAztdDM2N1QtVKfAQ9vYDN9Ot1qDjG8YQQ2U9uNev1scJDd7XGQMVMYE9rM1TdmTtfuapts8E5eoxZkaDNVbBuK2TLLSltm2RQr/zd4yMKbqXvnaxRqNQY3U9vB11CHLILZwbG6n4Jpo5g9e4sL7HyuiWCm7zvPKHSPfRwz76XmvLlGMRv1VAY3ha7ENVHM9LQD7Hv2cDhFIDP1NaqXMbR8PohlZjdql+Pk7LgqG6KZ2cPluVs+8GtRPDNrVzg5cBrwimtmbXnuP25bZ61oiWtWN8X+dOw+5hexL3IS3axecZuq2ub53ph1ns+qatl3OQqu8M94PMQhzOJAM39o5g/N/KGZPzTzh2b+0Mwfmvnz15qd8mQ4vl4QQggh5DV+AX8flQSKJaqiAAAAAElFTkSuQmCC" InformativeScreenshot="cf584012476fa5dff9c9417d3fd48fe8.jpg" Reference="eNvcUkGFFkWVWj1NQR3NZw/fiJ0n9OvAkGOaCDtDL6jzw" Selector="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" Url="https://uibank.uipath.com/welcome" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

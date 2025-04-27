@@ -1,0 +1,14 @@
+﻿{
+  "Name": "We've Received Your Mes…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gkQC-m91iUKlpn1DPkCpTg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/gkQC-m91iUKlpn1DPkCpTg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/ifBdu2PiN06K0oWX2TlRPA",
+  "Created": "2025-04-27T10:45:13.6321549Z",
+  "Updated": "2025-04-27T10:45:13.6321549Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

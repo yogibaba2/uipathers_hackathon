@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: UiBank-Welcome(1)",
+  "Type": "App",
+  "Id": "0WPrTYdVoEG_fKSWDA-Pcg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/0WPrTYdVoEG_fKSWDA-Pcg",
+  "Created": "2025-04-27T09:43:35.6719674Z",
+  "Updated": "2025-04-27T09:43:35.6719674Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

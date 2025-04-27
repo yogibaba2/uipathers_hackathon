@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-1DaV1eGWk6w-LhUiG6u4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help/confirmation" DesignTimeRectangle="421, 360, 452, 116" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='text-center text-white header' aaname='We&amp;apos;ve Received Your Message' check:innerText='We&amp;apos;ve Received Your Message' /&gt;" Guid="c443db18-8d77-411c-90e1-b719e2d68131" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Confirmation' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="255c8310ac46c7a26fcfc96164e6f400.png" xmlns="">0AXGoi6re1kO3DnOCqgBG5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

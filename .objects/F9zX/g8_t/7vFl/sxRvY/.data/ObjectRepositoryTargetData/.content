@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PH-hE7DIqUqq4GdmeJTFyQ" Reference="eNvcUkGFFkWVWj1NQR3NZw/sxRvYjJjvkWbCtSBHtlZYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" CVScreenId="e1bdf026-4bb2-4153-bc3c-4ed7ed56ccb2" DesignTimeRectangle="329, 443, 637, 53" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" Guid="8b49ed40-6207-41bb-ab19-1400dbae03d5" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e1bdf026-4bb2-4153-bc3c-4ed7ed56ccb2" CvTextArea="327, 363, 60, 11" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="329, 413, 58, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Username' check:innerText='Username' /&gt;" Guid="5bb86b05-1881-4ee0-a4bc-8c50aeefb88b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc5f442d8b7091460061b9f3e1944f8e.png" xmlns="">0VBmXe1TZXk-8nKjA0vWVEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

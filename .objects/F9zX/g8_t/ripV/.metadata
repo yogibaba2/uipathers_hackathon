@@ -1,0 +1,15 @@
+﻿{
+  "Name": "help screen",
+  "Type": "Screen",
+  "Id": "ripVEOx2p02AWBrvFqNbpg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/ripVEOx2p02AWBrvFqNbpg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/g8_tD0FA-0K1Jr-Fn4pxgw",
+  "Created": "2025-04-27T10:31:27.9969672Z",
+  "Updated": "2025-04-27T10:32:44.8811161Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

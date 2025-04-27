@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TSZ52RUO70S-goq9AdnOWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help" CVScreenId="4c3aaf74-105b-4007-b216-9118afb6c277" DesignTimeRectangle="353, 434, 573, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='fullName' tag='INPUT' /&gt;" Guid="f9aa5026-66af-46af-97c0-243231281404" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Help' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4c3aaf74-105b-4007-b216-9118afb6c277" CvTextArea="351, 417, 58, 11" CvTextArgument="Full Name" CvType="Text" DesignTimeRectangle="353, 415, 55, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Full Name' check:innerText='Full Name' /&gt;" Guid="1e82d6cd-1556-44c6-b6a3-ef1c08c299d9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b3c7742eef7dcda316d96152210c7076.png" xmlns="">0Q1wvaTSPDkilF0hgJGiBRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

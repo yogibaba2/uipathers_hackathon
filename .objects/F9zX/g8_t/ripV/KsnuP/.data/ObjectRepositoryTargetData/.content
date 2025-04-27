@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WdImgWKDsUWIeEwJlXFmIA" Reference="eNvcUkGFFkWVWj1NQR3NZw/KsnuPbLIoUC3YMGPgpf6MA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help" CVScreenId="c0fd8a22-e73b-4b74-a1bd-20600a132993" CvElementArea="558, 855, 164, 54" CvTextArea="593, 873, 92, 15" CvTextArgument="Contact Us" CvType="Button" DesignTimeRectangle="560, 805, 160, 50" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='form-button btn btn-xl btn-white' aaname=' Contact Us ' check:innerText='Contact Us' /&gt;" Guid="67648971-25fc-43d6-9d95-773b67ff0a7a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Help' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f400842f8bf269f60f5e0d0f9ad63b51.png" xmlns="">0lfFVI2chU0OwL_JpN06ung</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

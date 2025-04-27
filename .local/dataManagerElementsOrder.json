@@ -48,7 +48,15 @@
     {
       "Path": "WEB_Tests/UI_TC3_Apply For New Account.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "verificationResult&Sequence_3",
+        "account_name&Sequence_3",
+        "congratulation_message&Sequence_3",
+        "account_number&Sequence_3",
+        "apply_for_account_label&Sequence_3",
+        "classname&Sequence_3",
+        "account_summary_label&Sequence_3"
+      ],
       "ArgumentsSectionElementsOrder": [
         "pasword",
         "username"
@@ -59,7 +67,9 @@
     {
       "Path": "workflows/Do Login.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "currentUrl&Sequence_4"
+      ],
       "ArgumentsSectionElementsOrder": [
         "username",
         "pasword"
@@ -81,6 +91,7 @@
       "Path": "WEB_Tests/UI_TC1_Signup.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "email&Sequence_5",
         "username&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -98,6 +109,128 @@
       "Path": "workflows/create email.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "workflows/Open Profile Page.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WEB_Tests/UI_TC6_Profile_Page.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "act_username&Sequence_4",
+        "act_fname&Sequence_4",
+        "act_email&Sequence_4",
+        "act_userId&Sequence_4",
+        "act_age&Sequence_4",
+        "act_lname&Sequence_4",
+        "username&Sequence_1",
+        "password&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "username",
+        "firstName",
+        "lastName",
+        "email",
+        "userId",
+        "dateOfBirth"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "workflows/NavigateTo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MainBrowser&Sequence_2",
+        "counter&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "utilities/verify current url.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WEB_Tests/UI_TC8_Contact_US_data_driven.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "message&Sequence_4",
+        "currentURL&Sequence_4",
+        "username&Sequence_1",
+        "password&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "tellus",
+        "email",
+        "fname"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "workflows/Verify All Links.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sectionLink&Sequence_6",
+        "elements&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "workflows/Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sectionLink&Sequence_3",
+        "sectionLink&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WEB_Tests/UI_TC10_apply_for_loan.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "heading&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "age",
+        "income",
+        "term",
+        "amount",
+        "email"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "API_Tests/API_TC1_Authentication_Login_UIBank.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "randomUsername&Sequence_1",
+        "randomPassword&Sequence_1",
+        "GlobalVariablesNamespace_GlobalVariables_username&Sequence_1",
+        "GlobalVariablesNamespace_GlobalVariables_password&Sequence_1",
+        "response&Sequence_1",
+        "verificationResult&Sequence_1",
+        "deserializedResponse&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

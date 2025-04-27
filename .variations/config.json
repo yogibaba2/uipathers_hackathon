@@ -3,6 +3,26 @@
     {
       "filePath": ".variations\\test-data.json",
       "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\profile-data.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\contact-us-data.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\loan-data.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\UserCreationData_UserCreationData.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\CrossBrowserEnv_Sheet1.json",
+      "dataVariationType": "File"
     }
   ]
 }

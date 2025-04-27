@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PTbExtKnEkeXWGOHo5hRTg" Reference="eNvcUkGFFkWVWj1NQR3NZw/ywe4FC-VnEm-qYwqPVTBvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/userprofile" CVScreenId="49099db4-39e9-4c67-8ce8-3d58ce762660" CvTextArea="367, 906, 116, 27" CvType="AnyWordGroup" DesignTimeRectangle="369, 907, 113, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='STRONG' class='' /&gt;" Guid="f3ec2bd0-6d8a-4b3c-a65d-1609def65799" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Profile' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-4" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="edde671451aa02f9d8a0d7fdbcff5b51.png" xmlns="">0afuH8V_qfUeGic091RWujg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KMVjNHRgfUW1YiNWcMo2SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help" CVScreenId="a54c5cf8-c748-47dd-bde8-df6c8cf19598" DesignTimeRectangle="353, 623, 573, 134" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='message' tag='TEXTAREA' /&gt;" Guid="30cd54b2-b72c-4dda-842b-4177ed890a95" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Help' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a54c5cf8-c748-47dd-bde8-df6c8cf19598" CvTextArea="351, 606, 151, 11" CvTextArgument="Tell Us About Your Problem" CvType="Text" DesignTimeRectangle="353, 604, 149, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tell Us About Your Problem' tag='LABEL' type='' class='uibank-label' check:innerText='Tell Us About Your Problem' /&gt;" Guid="59032861-5d7f-40b5-b33c-19c820f74a54" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c548456d1579649a97f781ed9927dc4e.png" xmlns="">0kvCGsxoQWEGA58r00f0CZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

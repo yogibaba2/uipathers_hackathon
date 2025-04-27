@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cDJnOlZIikSQZUFiwTwJNw" Reference="eNvcUkGFFkWVWj1NQR3NZw/2CloSVKQG0ehpc_Sf-2FDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help" CVScreenId="c0fd8a22-e73b-4b74-a1bd-20600a132993" CvElementArea="352, 579, 574, 56" CvType="InputBox" DesignTimeRectangle="353, 528, 573, 55" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='emailAddress' tag='INPUT' type='text' class='form-control uibank-input' placeholder='Enter the email address' aaname='Email Address' /&gt;" Guid="205450da-13fb-477d-919b-1987658571e9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Help' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0fd8a22-e73b-4b74-a1bd-20600a132993" CvTextArea="351, 562, 81, 12" CvTextArgument="Email Address" CvType="Text" DesignTimeRectangle="353, 509, 79, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email Address' tag='LABEL' type='' class='uibank-label' check:innerText='Email Address' /&gt;" Guid="40f73fa3-07ba-4154-8528-46eccd280e2c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="03a41350016499bf38ad924a45a9b8ec.png" xmlns="">0YPZACFzanEW6u_2QP4hg7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

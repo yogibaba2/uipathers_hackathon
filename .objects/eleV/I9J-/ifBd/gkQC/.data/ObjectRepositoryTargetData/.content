@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sLHzOt7gGEWQbMW8WRwrGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/help/confirmation" DesignTimeRectangle="421, 308, 452, 116" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="2a4187c5-550e-4cce-9e8d-6f4cea110dbc" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Confirmation' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d3e3b56da194163dff705d8b541cdbf1.png" xmlns="">0BrBliJhVr02WJFVe8Lutfg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YoOwLArD3UqStojOejS4wA" Reference="eNvcUkGFFkWVWj1NQR3NZw/V97jDicxc0iANuvewu9clw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/userprofile" CVScreenId="49099db4-39e9-4c67-8ce8-3d58ce762660" CvTextArea="366, 505, 176, 24" CvType="AnyWordGroup" DesignTimeRectangle="367, 534, 76, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' /&gt;" Guid="584eaef1-52fa-4726-8b79-88efdfd13fb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Profile' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c99f3c26-de2e-4d97-a1a4-515665678faa" CvTextArea="366, 556, 176, 25" CvTextArgument="yogendraporwal" CvType="Text" DesignTimeRectangle="369, 553, 172, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='yogendraporwal' check:innerText='yogendraporwal' /&gt;" Guid="d7f74054-f1c6-4c6e-9d18-8c6a962e2f5c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7b85bf91e78cb14c8419db5642d64604.png" xmlns="">0jddLroE5Gk6i9mcB8bG0kw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

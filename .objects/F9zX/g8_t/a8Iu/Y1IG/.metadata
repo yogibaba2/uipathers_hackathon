@@ -1,0 +1,16 @@
+﻿{
+  "Name": "User Id",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Y1IG6phd-EKyRzJrbLkQGg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/Y1IG6phd-EKyRzJrbLkQGg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/a8IurZcvN0qWSaPXHHt1Gw",
+  "Created": "2025-04-27T07:01:26.2063099Z",
+  "Updated": "2025-04-27T10:10:40.6876563Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

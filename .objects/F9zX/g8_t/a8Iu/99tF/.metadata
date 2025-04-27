@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Welcome message",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "99tFWR9g-U6-M04WMwopFQ",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/99tFWR9g-U6-M04WMwopFQ",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/a8IurZcvN0qWSaPXHHt1Gw",
+  "Created": "2025-04-27T07:01:25.9064587Z",
+  "Updated": "2025-04-27T07:01:25.9064587Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
