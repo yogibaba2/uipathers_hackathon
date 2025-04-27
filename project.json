@@ -1,0 +1,80 @@
+{
+  "name": "UiBankTestSuite",
+  "projectId": "ef671a5e-f604-4073-a83e-60070ddaa2a1",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.System.Activities": "[25.2.3]",
+    "UiPath.Testing.Activities": "25.4.0",
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
+    "UiPath.WorkflowEvents.Activities": "[3.7.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.199395072",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Do Signup.xaml",
+        "Do Login.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b8a97fd9-3628-410d-a342-9d1c56293985",
+        "dataVariationFilePath": ".variations\\test-data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "WEB_Tests\\UI_TC2_Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "afab866d-ea99-4ecf-8065-f094f443c818",
+        "dataVariationFilePath": ".variations\\test-data.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "WEB_Tests\\UI_TC3_Apply For New Account.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ac2ada47-38b6-4bab-a99c-a9138c9912aa",
+        "testCaseType": "TestCase",
+        "fileName": "WEB_Tests\\UI_TC1_Signup.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

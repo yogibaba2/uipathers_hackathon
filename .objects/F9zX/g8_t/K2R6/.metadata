@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Account Create Result SCreen",
+  "Type": "Screen",
+  "Id": "K2R6ph2iYU-wrfkBtmv0GA",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/K2R6ph2iYU-wrfkBtmv0GA",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/g8_tD0FA-0K1Jr-Fn4pxgw",
+  "Created": "2025-04-26T18:12:13.1514763Z",
+  "Updated": "2025-04-26T18:12:13.1514763Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

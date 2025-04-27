@@ -1,0 +1,14 @@
+﻿{
+  "Name": "I agree to the Privacy …",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ClF9rA017kyOCDIEgZBKjw",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/ClF9rA017kyOCDIEgZBKjw",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/gVpoGo842kOICMhkmXTXXA",
+  "Created": "2025-04-26T11:03:47.9169022Z",
+  "Updated": "2025-04-26T11:03:47.9169022Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

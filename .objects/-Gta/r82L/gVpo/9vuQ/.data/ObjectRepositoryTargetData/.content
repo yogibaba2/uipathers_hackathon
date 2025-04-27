@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Wm1WCtiXbkuLhnxiItpcog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" CVScreenId="88e0c09a-7708-4341-a8f9-3e066ec03caf" CvTextArea="435, 567, 406, 25" CvTextArgument="official communications and password" CvType="Text" DesignTimeRectangle="436, 567, 405, 25" DesignTimeScaleFactor="1" ElementType="Text" Guid="d05a42ca-b65d-42ea-8bc1-7763b1c26036" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f2003799c41b034501b55a6c2f6f06d3.png" xmlns="">0ZPBrNSpgJkqTXMoydDtRcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/revoluipathers_hackathon/DefaultTenant/testmanager_/",
+  "defaultProject": {
+    "id": "ece2e85e-6a59-0000-e15b-0b48263e5aa4",
+    "name": "Web_Testing_RevolUiPathers",
+    "key": "WTRUP"
+  }
+}

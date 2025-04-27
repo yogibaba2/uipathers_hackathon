@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8G-mOjz6_Eq180JbAtrr8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/account-create-results/15355476/saving" CVScreenId="3ffe9bf7-b89a-4bd4-8f99-b0e0429558e4" CvTextArea="434, 408, 423, 54" CvType="AnyWordGroup" DesignTimeRectangle="244, 403, 806, 58" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='text-center text-white header' /&gt;" Guid="36755974-56ff-4207-b3b4-e777234f902b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Creation Result' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="37b131ec195cfd5f39e83ecd7a01a0da.png" xmlns="">06ITZrZ7gq0uzdy-bLw6YnA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

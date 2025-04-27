@@ -1,0 +1,16 @@
+﻿{
+  "Name": "View Your Accounts Button",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oIwn3L7oUUCG4ZXkqPmR1g",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/oIwn3L7oUUCG4ZXkqPmR1g",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/K2R6ph2iYU-wrfkBtmv0GA",
+  "Created": "2025-04-26T18:12:58.8171517Z",
+  "Updated": "2025-04-26T18:13:09.4727545Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "uibank.uipath.com/accou…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "03eJYv4XVkWS1GC8kGzeCQ",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/03eJYv4XVkWS1GC8kGzeCQ",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/gVpoGo842kOICMhkmXTXXA",
+  "Created": "2025-04-26T11:04:20.0632352Z",
+  "Updated": "2025-04-26T11:04:20.0632352Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

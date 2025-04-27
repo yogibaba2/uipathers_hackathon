@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FK7zohQiG0ORp1tYPduHsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/account-apply" CVScreenId="0d7919c0-6a8a-4a30-9a2f-a06f10a2572e" CvElementArea="272, 626, 733, 56" CvType="InputBox" DesignTimeRectangle="273, 627, 733, 54" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='typeOfAccount' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='typeOfAccount' tag='SELECT' type='text' class='form-control uibank-input ng-untouched ng-pristine ng-invalid' aaname='Type of Account' /&gt;" Guid="f7f41955-a5e3-4ca1-847b-e4c37887f13b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Apply' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0d7919c0-6a8a-4a30-9a2f-a06f10a2572e" CvTextArea="271, 610, 93, 14" CvTextArgument="Type of Account" CvType="Text" DesignTimeRectangle="273, 608, 90, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Type of Account' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Type of Account' tag='LABEL' type='' class='uibank-label' check:innerText='Type of Account' /&gt;" Guid="de856a9c-c3de-44d5-ab73-8f6ac5366433" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1b72980912da2cd0fd7e219f313dc9ac.png" xmlns="">0gl2hyuoFDEuzQLYRn0LLaA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

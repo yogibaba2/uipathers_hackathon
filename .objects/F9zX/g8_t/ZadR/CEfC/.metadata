@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Apply Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "CEfCp414l0KArX9Dhn3Lmg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/CEfCp414l0KArX9Dhn3Lmg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/ZadR4tbLfUmtLlGJDLv5Kw",
+  "Created": "2025-04-26T18:09:33.6655392Z",
+  "Updated": "2025-04-26T18:09:33.6655392Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

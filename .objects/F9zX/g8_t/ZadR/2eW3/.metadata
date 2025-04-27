@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Give a Nickname to Your…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "2eW3d3SX-0SyOtosUOd3LA",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/2eW3d3SX-0SyOtosUOd3LA",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/ZadR4tbLfUmtLlGJDLv5Kw",
+  "Created": "2025-04-26T18:09:20.5534971Z",
+  "Updated": "2025-04-26T18:09:20.5534971Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

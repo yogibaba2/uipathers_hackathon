@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Account Nickname",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "FY_hLIlPw06cNBx4rq3nlg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/FY_hLIlPw06cNBx4rq3nlg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/K2R6ph2iYU-wrfkBtmv0GA",
+  "Created": "2025-04-26T18:12:54.0901775Z",
+  "Updated": "2025-04-26T18:12:54.0901775Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

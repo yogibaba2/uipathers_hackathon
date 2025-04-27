@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'official communications…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9vuQPimV2E2s67MSKcmLpQ",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/9vuQPimV2E2s67MSKcmLpQ",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/gVpoGo842kOICMhkmXTXXA",
+  "Created": "2025-04-26T11:12:08.2046699Z",
+  "Updated": "2025-04-26T11:12:08.2046699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

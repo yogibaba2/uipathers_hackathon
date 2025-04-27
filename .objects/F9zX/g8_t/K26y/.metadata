@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome UiBank - Accounts",
+  "Type": "Screen",
+  "Id": "K26yrwM0QEiv6eP7ef-3IQ",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/K26yrwM0QEiv6eP7ef-3IQ",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/g8_tD0FA-0K1Jr-Fn4pxgw",
+  "Created": "2025-04-26T18:38:30.0899045Z",
+  "Updated": "2025-04-26T18:38:30.0899045Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

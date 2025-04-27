@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome UiBank-Login",
+  "Type": "App",
+  "Id": "-GtaBZpVpECAdwt3xouG0Q",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/-GtaBZpVpECAdwt3xouG0Q",
+  "Created": "2025-04-26T08:28:35.4544287Z",
+  "Updated": "2025-04-26T08:28:35.4544287Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

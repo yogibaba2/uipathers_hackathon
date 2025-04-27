@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XQDCgI6RYEm3xrd3U9oNfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/account-apply" CVScreenId="0d7919c0-6a8a-4a30-9a2f-a06f10a2572e" CvElementArea="397, 711, 485, 53" CvTextArea="613, 729, 52, 19" CvTextArgument="Apply" CvType="Button" DesignTimeRectangle="400, 713, 480, 50" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn text-center btn-white form-button btn-xl' aaname='Apply' check:innerText='Apply' /&gt;" Guid="fe57c08d-4952-4136-97f3-eae2dc23b339" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Apply' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a8c7bb6ca2aacde262916743c8d0b19.png" xmlns="">0vxjD4UXptUmCswCdNjuHfA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

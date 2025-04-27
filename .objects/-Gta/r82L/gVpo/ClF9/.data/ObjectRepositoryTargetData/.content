@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fWVpk-7pxEG7j5NXKbOGGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" CVScreenId="4ff235bf-380f-480a-aa2c-71641d9e63ec" CvElementArea="507, 686, 264, 52" CvTextArea="530, 702, 200, 20" CvTextArgument="lagree to the Privacy Policy" CvType="Button" DesignTimeRectangle="508, 687, 263, 50" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='I agree to the Privacy Policy →' parentid='mat-mdc-dialog-0' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='I agree to the Privacy Policy →' parentid='mat-mdc-dialog-0' tag='BUTTON' type='button' class='btn center-button btn-black' check:innerText='I agree to the Privacy Policy →' /&gt;" Guid="8b31b433-7963-4448-a7cf-0214796c3f94" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4ff235bf-380f-480a-aa2c-71641d9e63ec" CvElementArea="507, 686, 264, 52" CvType="Button" DesignTimeRectangle="732, 702, 16, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='mat-mdc-dialog-0' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='mat-mdc-dialog-0' tag='STRONG' type='' class='' aaname='→' check:innerText='→' /&gt;" Guid="36aca58f-1b59-4419-8e7e-4a5d56cfad2b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="607a75fcf1ac148e2822f79dc254b484.png" xmlns="">0T_ca7-m_nUad9KoLGsVImQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

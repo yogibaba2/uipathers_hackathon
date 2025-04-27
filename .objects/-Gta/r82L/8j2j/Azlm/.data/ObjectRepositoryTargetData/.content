@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rdVcBDlEK0KNGY7pts5nEQ" Reference="eNvcUkGFFkWVWj1NQR3NZw/Azlm9LJYTUyvoLkc3tVKXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/login" CVScreenId="c1e500e5-e0dc-4f22-8efc-eacc3ab41649" CvElementArea="436, 505, 421, 57" CvType="InputBox" DesignTimeRectangle="329, 391, 637, 53" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='form-control uibank-input ng-untouched ng-pristine ng-valid' placeholder='Enter username' aaname='Username' /&gt;" Guid="36dab970-c7fa-4517-9c63-310da227ca22" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c1e500e5-e0dc-4f22-8efc-eacc3ab41649" CvTextArea="434, 486, 60, 11" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="329, 361, 58, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Username' check:innerText='Username' /&gt;" Guid="640d9c0a-91b3-4762-b790-77be72260014" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51b6e0830ba529b1625824c067f99e8d.png" xmlns="">0Ol9UHKAoqECBh3ruaSk7DA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

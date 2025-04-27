@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Account Number",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OeYZCYxuUky1LdU0hUB3Qg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/OeYZCYxuUky1LdU0hUB3Qg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/K2R6ph2iYU-wrfkBtmv0GA",
+  "Created": "2025-04-26T18:12:30.0058899Z",
+  "Updated": "2025-04-26T18:12:30.0058899Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RXMG3ZXBSUSEs2MecsahoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/account-apply" CVScreenId="0d7919c0-6a8a-4a30-9a2f-a06f10a2572e" CvElementArea="271, 548, 735, 56" CvType="InputBox" DesignTimeRectangle="273, 548, 733, 55" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='accountNickname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='accountNickname' tag='INPUT' type='text' class='form-control uibank-input ng-untouched ng-pristine ng-valid' placeholder='Enter a nickname for your new account' aaname='Give a Nickname to Your Account' /&gt;" Guid="47944690-b9f3-4328-9408-f99c471e3522" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Apply' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0d7919c0-6a8a-4a30-9a2f-a06f10a2572e" CvTextArea="271, 530, 189, 12" CvTextArgument="Give a Nickname to Your Account" CvType="Text" DesignTimeRectangle="273, 529, 187, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Give a Nickname to Your Account' check:innerText='Give a Nickname to Your Account' /&gt;" Guid="dd6454c7-bbf4-4fb2-a980-1f659c6141e4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c90c8434d1f0168cdd1c69dd212a0f91.png" xmlns="">0vGGQUFezfE-0VGpvrVAVbg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'UiBank is an applicatio…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "U6Rf4MEK-EqnS0BIUu3E7A",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/U6Rf4MEK-EqnS0BIUu3E7A",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/gVpoGo842kOICMhkmXTXXA",
+  "Created": "2025-04-26T11:05:33.1150566Z",
+  "Updated": "2025-04-26T11:05:33.1150566Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

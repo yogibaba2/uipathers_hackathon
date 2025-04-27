@@ -1,0 +1,18 @@
+﻿[
+    {
+        "fname": "John",
+        "lname": "Doe",
+        "gender": "Male",
+        "title": "Mr",
+        "employment": "Part-time",
+        "marital_status": "Single",
+    },
+    {
+        "fname": "Jane",
+        "lname": "Smith",
+        "gender": "Female",
+        "title": "Ms",
+        "employment": "Full-time",
+        "marital_status": "Married",
+    }
+]

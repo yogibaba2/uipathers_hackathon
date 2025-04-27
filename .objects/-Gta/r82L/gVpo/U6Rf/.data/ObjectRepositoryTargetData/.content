@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ICIExDlQ3k6Kg5iHjYmsfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" DesignTimeRectangle="367, 495, 545, 144" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-mdc-dialog-1' tag='P' type='' class='medium-text' aaname='UiBank is an application used only for demo purposes. It doesn&amp;apos;t require real data, except for the email address, which will be used for official communications and password recovery purposes.Please see here the full ' check:innerText='UiBank is an application used only for demo purposes. It doesn&amp;apos;t require real data, except for the' /&gt;" Guid="ff60b46e-0504-4c89-994f-9fc311caca8e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="deb79028ead452b66a78a06cd423c62d.png" xmlns="">0VBMi5kJ1kE6OWw7IzCw-9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

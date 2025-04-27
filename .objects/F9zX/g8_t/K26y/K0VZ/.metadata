@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Apply For New Account Button",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "K0VZqB1uKkWFTUFzQcuCPg",
+  "Reference": "eNvcUkGFFkWVWj1NQR3NZw/K0VZqB1uKkWFTUFzQcuCPg",
+  "ParentRef": "eNvcUkGFFkWVWj1NQR3NZw/K26yrwM0QEiv6eP7ef-3IQ",
+  "Created": "2025-04-26T18:43:06.4728813Z",
+  "Updated": "2025-04-26T18:43:06.4728813Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
